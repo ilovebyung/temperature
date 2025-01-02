@@ -60,5 +60,5 @@ void loop() {
   Serial.print(h);
   Serial.println(" %");
 
-  delay(1000); // Wait for 1 seconds
+  delay(100); // Wait for 0.1 seconds
 }
