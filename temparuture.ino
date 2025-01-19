@@ -53,12 +53,11 @@ void loop() {
   delay(3000); // Wait for 3 seconds
   display.clear(); 
 
-  Serial.print("Temperature: ");
-  Serial.print(t);
-  Serial.println(" °C");
-  Serial.print("Humidity: ");
-  Serial.print(h);
-  Serial.println(" %");
+  Serial.print("Temperature: "); 
+  Serial.print(t); 
+  Serial.print(" °C, Humidity: "); 
+  Serial.print(h); 
+  Serial.println(" %");   
 
-  delay(100); // Wait for 0.1 seconds
+  delay(100); // Wait for 1 seconds
 }
